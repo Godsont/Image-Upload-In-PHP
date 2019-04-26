@@ -1,0 +1,48 @@
+body {
+  font-family: "Roboto Thin";
+  color: #ebeaea;
+}
+
+.container {
+  margin: 48px auto;
+  width:500px;
+  padding: 32px;
+  background: #1b3f43;
+}
+
+h1 {
+  text-align: center;
+  padding: 16px;
+}
+
+.userId {
+  background:black;
+  padding:12px;
+  font-weight:bold;
+  font-size:18px;
+  border-radius: 8px;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  width:100%;
+}
+
+form input {
+  flex:1;
+  font-size:18px;
+  border:1px solid black;
+  padding: 8px;
+}
+
+.profilePicture {
+  margin: 24px auto;
+  padding: 16px;
+  width: 300px;
+}
+
+.profilePicture img {
+  width:100%;
+  border-radius: 32px;
+}
